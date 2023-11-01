@@ -1,6 +1,5 @@
-import React, { useState } from "react";
-import { useHistory } from "react-router-dom";
-
+import React, { useState } from "react"; // Import useState
+import { useHistory } from "react-router-dom"; // Import useHistory
 function Login({ setIsLoggedIn }) {
   const history = useHistory();
   const [formData, setFormData] = useState({
@@ -43,5 +42,4 @@ function Login({ setIsLoggedIn }) {
     </form>
   );
 }
-
 export default Login;
